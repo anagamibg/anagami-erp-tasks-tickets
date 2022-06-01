@@ -1,0 +1,26 @@
+# Зависимости и билд артефакти
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+
+# Среда и тайни
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Логове и кешове
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+*.log
+.phpunit.result.cache
+
+# Редактори и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
